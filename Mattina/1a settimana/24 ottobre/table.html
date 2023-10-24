@@ -1,0 +1,117 @@
+<!--FORM, TABELLE E CONTENITORI-->
+
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="spiegazione tabelle">
+    <title>Tabelle</title>
+</head>
+
+<body>
+    <table>
+        <caption> <!--intestazione della tabella-->
+            Presenze classe
+        </caption>
+        <tr>
+            <th>Nome</th> <!--table head-->
+            <th>Data</th>
+            <th>Presenza</th>
+        </tr> <!--table row-->
+
+        <tr>
+            <td>Alessandro</td> <!--table data-->
+            <td>24-10</td>
+            <td>SI</td>
+        </tr>
+
+        <tr>
+            <td>Alessio</td> 
+            <td>24-10</td>
+            <td>SI</td>
+        </tr>
+
+        <tr>
+            <td>Fernando</td> 
+            <td>24-10</td>
+            <td>SI</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">Totale 44 presenti</td> <!--unisce le colonne-->
+        </tr>
+
+        <tr>
+            <td rowspan="3">Ciaooo</td> <!-- unisce le righe-->
+        </tr>
+    </table>
+
+
+<!--THEAD= TABLE HEAD, TBODY= TABLE BODY, TFOOT= TABLE FOOT: questi tre servono a noi per organizzare meglio il nostro codice,
+non cambia l'estetica-->
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Competenze</th>
+                <th>Livello</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>In grande crescita</td>
+            </tr>
+
+            <tr>
+                <td>CSS</td>
+                <td>Buono</td>
+            </tr>
+
+            <tr>
+                <td>Java</td>
+                <td>Buono</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Livello buono</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!--ANNIDARE TABELLE, puoi creare tabelle dentro tabelle-->
+
+    <table>
+        <tr>
+            <th>Studente</th>
+            <th>Presenze</th>
+        </tr>
+
+        <tr>
+            <td>Marco</td>
+            <td>Si</td>
+        </tr>
+
+        <tr>
+            <td>Yolanda</td>
+            <td>
+                <table>
+                    <tr>
+                        <tg>98-12</td> 
+                        <td>21-14</td>
+                        <td>32-56</td>
+                        <td>43-76</td>
+                        <td>54-76</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

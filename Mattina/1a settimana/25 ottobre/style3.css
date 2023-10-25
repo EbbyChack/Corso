@@ -1,0 +1,55 @@
+#contenitore {
+    width: 1024px;
+    border: 1px solid black;
+    margin: 0 auto;
+    /* 
+    1 valore:su tutti i 4 lati
+    2 valori: 1ò sopra e sotto 2ò destra e sinistra
+    3 valori: 1ò sopra, 2ò destra e sinistra 3ò sotto
+    4 valori: top, right, bottom, left
+     */
+}
+
+header {
+    background-color: rgba(109, 103, 213, 0.594);
+    padding: 2em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: blueviolet;
+}
+
+nav {
+    background-color: aquamarine;
+    padding: 1em;
+    height: 100px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    float: left; 
+    /* float per affiancare piu elementi */
+    width: 20%;
+    text-align: center;
+
+}
+
+nav a {
+    color: red;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover { text-decoration: underline; color: blue;}
+/* per cambiare colore e sottolineare quando il mouse ci va sopra */
+
+main {float: left; width: 70%; }
+
+:target{background-color: brown;}

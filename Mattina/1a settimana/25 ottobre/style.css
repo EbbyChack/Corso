@@ -1,3 +1,61 @@
 /*CASCADING STYLE SHEET*/
 /* serve a snellire HTML e controllare la formattazione di più pagine*/
 
+/* selettore {proprietà: valore;}  questa è la sintassi*/
+
+/*metodi per inserire css
+
+
+1)IN LINE: 
+scrivere direttamente sul file html.
+Questa tecnica è fortemente sconsigliata: 
+-potrebbe aumentare il peso del file HTML.
+-è difficile fare modifiche in un secondo momento.
+-le keyword vengono annacquate dal codice
+-compatibilità cross-device
+
+2)INCORPORATO:
+viene scritto dentro il head del file HTML.
+Anche questa tecnica è sconsigliata.
+
+3)ESTERNO:
+le regole css si trovano su un file css separato, questo è il metodo CONSIGLIATO.
+Il link va inserito nella head del file HTML.
+*/
+
+
+/* SINTASSI: */
+
+* {font-style: italic;}/* tutti i tag */
+p {font-size: 20px;}/* tutti i tag p */
+ul, ol {margin-left: 30px;}/* tutti tag ul e ol */
+p strong {font-size: 22px;}  /* solo i tag strong contenuti in p */
+
+/* ID E CLASSI */
+/* 
+ID: può essere utilizzato solo una volta (si usa # su CSS)
+Class: si utilizza per selezionare più elementi (si usa .)
+
+*/
+
+#titolo_principale {
+    color: aquamarine;
+    line-height: 40px;
+    font-size: 52px;
+}
+
+.autore {
+    color: gold;
+    font-size: 15px;
+}
+
+.corsivo {
+    color: palevioletred;
+}
+
+
+/* PRIORITA NEL CSS 
+-PRIORITA A CASCATA: LA TECNICA INLINE HA PIU PRIORITA RISPETTO ALLE ALTRE DUE TECNICHE
+-PRIORITA SPECIFICA: l'ultima dichiarazione sovvrascrive la precedente
+-PRIORITA GERARCHICA: INLINE (1000 punti)> ID (100 punti)> CLASS (10 punti)
+*/

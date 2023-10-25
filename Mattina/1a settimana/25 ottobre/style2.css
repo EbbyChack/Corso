@@ -1,0 +1,53 @@
+/* UNITA DI MISURA */
+p {font-size: 30px;} /* esiste anche pt*/
+p {font-size: 1em;} /* proporzionale all'elemento parent */
+p {font-size: 1.1rem;} /* proporzionale alla root(il contenitore che contiene il parent) */
+div {width: 50%; margin-left: 25%;} /* proporzionale all'elemento parent */
+
+/* px e pt sono SCONSIGLIATI perchè sono assolute*/
+
+/* relative: %, em, rem, vw, vh */
+
+/*
+vw = viewport width: proporzionale alla larghezza del device
+vh = viewport height: proporzionale all'altezza del device
+*/
+
+
+/* COLORI:*/
+p {color:blueviolet} /*tramite keyword  */
+p {color:#ff0000}/* tramite esadecimale rgb */
+p {color:#f00}/* ramite esademicale sintetico */
+p {color: rgb(0, 0, 225);} /* rgb */
+p {color: rgba(0, 0, 0, 0.543);} /* il quarto valore è l'opacità, si va dallo 0 al 1 */
+
+
+/* FONT */
+section p {font-family: 'Courier New', Courier, monospace;}
+section p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* FORMATTAZIONE DEI TESTI */
+#secondo {
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.5; /* interlinea: spazio tra una riga e l'alta */
+}
+
+
+div p {
+    color: blue;
+    text-align: center;
+    text-indent: 20em; /* il rientro della prima linea */
+    text-transform: uppercase;
+    text-shadow: 4px, 4px, 8px, 6px, black;
+
+}
+
+div h1 {
+    font-size:50px ;
+    text-shadow: 4px, 4px, #f00;
+}

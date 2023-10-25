@@ -55,7 +55,13 @@ section img {
     text-align: center;
 }
 
-#featuredin {color: red;margin: 3em;border-left: }
+#featuredin {
+    color: red;margin: 3em;
+    border-left: 1.5px solid rgb(255, 229, 31);
+    padding: 0 0 0 1em;
+    
+
+}
 
 a {color: rgba(9, 112, 71, 0.894);}
 

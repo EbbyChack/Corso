@@ -155,6 +155,8 @@ console.log(array)
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-array.pop()
-array.push(100)
+// array.pop()
+// array.push(100)
+
+array[9] = 100
 console.log(array)

@@ -123,7 +123,8 @@ for(i = 0; i < starWarsCharacters.length; i++) {
   
 
 /* ESERCIZIO 3
-  Seguendo i passaggi precedenti crea un nuovo array chiamato "femaleCharacters" e inserisci al suo interno tutti gli oggetti femminili.
+  Seguendo i passaggi precedenti crea un nuovo array chiamato "femaleCharacters" e 
+  inserisci al suo interno tutti gli oggetti femminili.
 */
 
 femaleCharacters = []
@@ -131,7 +132,8 @@ femaleCharacters = []
 for (let i = 0; i < starWarsCharacters.length; i++) {
 
   if (starWarsCharacters[i].gender === "female") {
-    femaleCharacters.push(starWarsCharacters[i])
+    femaleCharacters.push(starWarsCharacters[i]);
+    
   } }
   console.log(femaleCharacters)
 
@@ -159,6 +161,7 @@ const eyeColor = {
 */
 
 for (let i = 0; i < starWarsCharacters.length; i++) 
+{
 
   switch (starWarsCharacters[i].eye_color) 
   {
@@ -182,7 +185,8 @@ for (let i = 0; i < starWarsCharacters.length; i++)
       eyeColor["blue-gray"].push(starWarsCharacters[i])
       break;
 
-    }
+    } 
+}
 console.log(eyeColor)
 
 
@@ -195,6 +199,11 @@ console.log(eyeColor)
 
 let z = 0;
 let crewMass = 0;
+
+// for (z = 0; z < starWarsCharacters.length; z++) {
+//   crewMass += (starWarsCharacters[z].mass)
+// }
+// scritto con for loop
 
 while (z < starWarsCharacters.length) {
   crewMass += (starWarsCharacters[z].mass);
@@ -221,11 +230,11 @@ console.log(crewMass)
 crewMass = 800;
 
 switch (true) {
-  case crewMass <= 500:
+  case crewMass < 500:
     console.log("Ship is under loaded");
     break;
 
-    case crewMass > 500 && crewMass <= 700:
+    case crewMass >= 500 && crewMass <= 700:
     console.log("Ship is half loaded");
     break;
 

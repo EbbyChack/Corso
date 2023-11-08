@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Mattina"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Esercitazioni coding"
+	}
+}

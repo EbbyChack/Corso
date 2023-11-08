@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="assets/css/liststyle.css">
+    <script src="assets/scripts/todolist.js"></script>
+</head>
+<body>
+   <main>
+    <form>
+        <input type="text" name="task" id="taskinput" placeholder="Insert task here"> <button id="addbutton">Add</button>
+    </form>
+    <div id="taskdisplay">
+        <p id="para">This is a test</p> <button id="deletebtn">Delete</button>
+    </div>
+   </main>
+
+   <script>
+    document.getElementById("deletebtn").addEventListener("click", function(){
+    document.getElementById("taskdisplay").remove();
+})
+   </script>
+
+   <script>
+    taskinput = document.getElementById("taskinput")
+    document.getElementById("addbutton").addEventListener("click", function(){
+        event.preventDefault();
+        document.getElementById("para").innerText = taskinput;
+    })
+   </script>
+
+
+    
+</body>
+</html>

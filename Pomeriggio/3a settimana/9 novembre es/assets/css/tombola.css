@@ -1,11 +1,13 @@
 * {
     text-align: center;
+    font-family:  Helvetica, sans-serif
 }
 
 #tabellone td {
-    border: 1px solid black;
+    border: 1px solid  rgba(0, 0, 0, 0.17);
     margin: 0;
     padding: 1em;
+    border-radius: 10%;
     
 }
 table {
@@ -20,4 +22,11 @@ table {
     background-color: #00ae0041 ;
     font-weight: 900;
     
+}
+
+#random {
+    padding: 0.5em;
+    background-color:#005f0041  ;
+    border-radius: 5%;
+    border: 1px solid #005a0041 
 }

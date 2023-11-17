@@ -419,7 +419,7 @@ console.log(onlyTheYears())
 /* ESERCIZIO 15
   Scrivi una funzione chiamata "onlyInLastMillennium" che ritorna solamente i film prodotto nel millennio scorso contenuti nell'array "movies" fornito.
 */
-console.log("Esercizio 14: NON è VENUTA, CONTROLLARE DOPO");
+console.log("Esercizio 15: NON è VENUTA, CONTROLLARE DOPO");
 
 // tiles
 const titles = movies.map(function (object) {

@@ -253,7 +253,10 @@ footer a {
     padding: 1em;
    }
    header div {
-    text-align: left;
+    margin-left: -20em;
+   }
+   header nav {
+    
    }
 
 /* ----- */

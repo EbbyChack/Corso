@@ -1,5 +1,9 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+
 * {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 body {
   margin: 0;
@@ -9,6 +13,7 @@ body {
 header nav {
   display: flex;
   flex-direction: column;
+  
 }
 header ul {
   padding: 0;
@@ -26,12 +31,15 @@ header li {
   padding: 0.4em 0.5em;
   border-radius: 50px;
   height: min-content;
-  font-size: 1em;
+  font-size: 0.75em;
+  font-weight: 600;
 }
 header {
   display: flex;
   justify-content: center;
   background-color: #fef7e2;
+  position: sticky;
+  top: 0;
 }
 
 li img {
@@ -43,7 +51,8 @@ li img {
   display: flex;
   align-items: center;
   gap: 0.7em;
-  padding: 1.5em;
+  padding: 1.3em;
+  font-size: 1em;
 }
 
 /* main */
@@ -79,6 +88,7 @@ h1 {
   width: fit-content;
   border-radius: 40px;
   padding-bottom: 1em;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.247);
 }
 
 .card img {

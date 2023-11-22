@@ -447,3 +447,18 @@ aside div p {
   opacity: 0.3;
   
 }
+h1 {
+  margin-bottom: 0.8em;
+}
+h1 span {
+  position: relative;
+}
+
+h1 span img {
+  position: absolute;
+  display: inline-block;
+  top:78px;
+  left:0;
+  width:100%;
+  opacity: 0.5;
+}
